@@ -1,0 +1,9 @@
+
+
+<div style=" text-align: center; background-color: rgb(231, 229, 75); height:250px; width:100%; margin: 0 auto;">
+  <h3>This is parent component</h3>
+  <p>{{recieave}}</p>
+</div>
+
+<app-child [massage]="massage_parent"></app-child>
+<app-child (massageEvent)="recieaveMassage($event)"></app-child>
